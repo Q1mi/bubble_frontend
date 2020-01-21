@@ -3,8 +3,9 @@ import './plugins/axios'
 import App from './App.vue'
 import './plugins/element.js'
 import router from './router'
+import './plugins/axios.js'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 new Vue({
   router,
